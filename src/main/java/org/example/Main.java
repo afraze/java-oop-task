@@ -6,7 +6,7 @@ public class Main {
         // (i.e) getSalaryPayment() => Ali got 5000 CHF salary payment.
 
         // Manager(id, firstName, lastName, age, salary, department)
-        /*
+
         Manager manager1 = new Manager(1, "John", "Murphy", 45, 10000, "Test");
         Manager manager2 = new Manager(2, "Mark", "Rylie", 51, 10200, "Development");
         Manager manager3 = new Manager(3, "Maria", "Swift", 42, 10500, "HR");
@@ -19,12 +19,13 @@ public class Main {
         Employee newEmployee2 = new Employee(3, "Mario", "Trix", 30, 6000, "Unknown");
 
         System.out.println("###########################################################");
+
         manager1.getNumberOfEmployeesSupervised();
         manager1.hireEmployee(newSoftwareDeveloper);
         manager1.getNumberOfEmployeesSupervised();
         System.out.println("###########################################################");
         System.out.println("SoftDev 1 salary : "+ softwareDeveloper1.getSalary());
-        manager1.increaseSalary(softwareDeveloper1, 500);
+         manager1.increaseSalary(softwareDeveloper1, 500);
         softwareDeveloper1.getSalaryPayment();
         softwareDeveloper2.takeABreak();
         System.out.println("###########################################################");
@@ -51,9 +52,9 @@ public class Main {
         manager3.hireEmployee(newEmployee2);
         manager3.getNumberOfEmployeesSupervised();
         manager3.getEmployees();
-        */
 
-        */
+
+
 
     }
 }
